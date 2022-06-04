@@ -1,0 +1,177 @@
+*
+body{
+
+ background: #ffffff;
+}
+
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.logo
+{
+    width: 120px;
+    cursor: pointer;
+}
+nav ul
+{
+    flex: 1;
+    text-align:right;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 10px;
+}
+nav ul li a {
+    color:#fff;
+    text-decoration: none;
+    position: relative;
+}
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    transition: width 0.5s;
+    
+}
+nav ul li a:hover::after {
+    width: 80%;
+    
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+}
+
+
+
+
+.navbar{
+  background-color:white
+}
+.nav-link{
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+.nav-link:hover
+{
+  color: rgb(0, 0, 0);
+  /* background-color: rgb(255, 255, 255); */
+
+}
+.navbar-brand
+{
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  text-decoration: none;
+
+}
+#btn1
+{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+#btn1:hover
+{
+background-color: #fff;
+color: rgb(0, 0, 0);
+}
+
+
+
+
+.container{
+    overflow: hidden;
+   
+}
+.container-fluid{
+    overflow: hidden;
+    background-size: cover;
+    
+}
+#content1{
+    background-color:rgb(255, 255, 255);
+}
+
+/* .text-center
+{
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgb(94, 94, 94);
+    font-style: normal;
+    font: 18px sans-serif;
+    white-space: nowrap;
+
+} */
+h4{
+    color: #751201;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    color: rgb(0, 0, 0);
+    padding: 50px;
+}
+p
+{
+    font-family: 'Poppins', sans-serif;
+    text-align:center;
+    word-spacing: 5px;
+    letter-spacing: normal;
+    font-size: large;
+    text-transform: capitalize;
+    color: black;
+}
+.para1
+{
+    color: rgb(56, 133, 196);
+    text-align: left;
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: black;
+    background-color: black;
+    border-inline-color: white;
+}
+
+
+.overlay
+{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius:  150px;
+    font-family: Arial,sans-serif;
+}
+
+#gallary
+{
+ background-color: #212529;
+}
+
+
+
+
